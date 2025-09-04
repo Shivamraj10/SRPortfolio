@@ -5,34 +5,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "Quality Engineer",
+    company: "Jabil Circuit India Pvt. Ltd.",
+    date: "Sept 2022 - Sept 2023",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Monitored and ensured quality standards across manufacturing processes.",
+      "Collaborated with cross-functional teams to improve production efficiency.",
+      "Proposed process improvements to enhance product quality and reduce defects.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "React JS Intern",
+    company: "Celebal Technologies",
+    date: " May 2025 - July 2025",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Developed reusable and responsive components using React.js and Tailwind CSS.",
+      "Optimized frontend performance for large-scale web applications.",
+      "Contributed design ideas to improve overall user experience and accessibility.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Full Stack Intern",
+    company: "Javadhi Limited",
+    date: "June 2025 - Present",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Developed and maintained responsive UI components using React.js and Tailwind CSS.",
+      "Integrated RESTful APIs and handled state management with React Context API.",
+      "Improved performance, accessibility, and cross-browser compatibility of web interfaces.",
     ],
   },
 ];
@@ -51,7 +50,7 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
               >
-                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
+                <FaArrowRightLong className="text-5xl text-orange lg:block sm:hidden" />
               </motion.div>
             ) : (
               ""
